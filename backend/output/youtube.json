@@ -1,0 +1,93 @@
+[
+  {
+    "source_url": "https://www.youtube.com/watch?v=cdXzR-cmmkc",
+    "source_type": "youtube",
+    "author": "Stanford Medicine",
+    "published_date": "2026-01-21",
+    "language": "en",
+    "region": "global",
+    "topic_tags": [
+      "clinical medicine",
+      "healthcare",
+      "artificial intelligence",
+      "medical research",
+      "machine learning"
+    ],
+    "trust_score": 0.71,
+    "content_chunks": [
+      "Seems the buzzwords these days are artificial intelligence. Lots of excitement, but also a lot of fear when it comes to your health care. Stanford's Jonathan Chen explains the magic. You know, AI, artificial intelligence are",
+      "the buzzwords these days. And there's a lot of fear and apprehension in the medical field health-wise. How do you address that? >> I think there's reason to have anxieties that are very plausible and reasonable,",
+      "but also a lot of reason to be optimistic as well. I would say it's a key tool. As much as the internet was a thing and kind of changed all that world 30 35 years ago, that doesn't mean like the internet can take care of patients.",
+      "No, humans take care of patients, but boy is it a very important tool that's going to change the way we do all of what we do. >> How do you use magic in order to translate AI in medicine? >> It's really hard to tell what's real.",
+      "Now, turns out magic requires a lot of empathy and engagement and it's illusion versus reality and having a very hard time telling the difference. Surprisingly amazing things can happen. And I realize that's what AI looks like",
+      "in the past few years. But sometimes that illusion is very convincing and sometimes that illusion is still very useful. We anthropomorphicize qualities. >> Is that an SAT word? >> It is totally SAT word. I try very hard",
+      "to remember. We attribute human qualities to computers. Oh, it has thinking. It has reasoning. It has empathy. It hallucinates. Like no, no, it doesn't. It's it's a computer. It's a model. It doesn't think. It doesn't",
+      "reason. It doesn't know. It doesn't understand. But it creates such a convincing illusion of these things at some point. know the difference, but also know that you can use that in very useful and compelling ways. Watch close.",
+      "You'll actually find it actually just an illusion more. >> You know, Jonathan, I can do magic, too. >> Really? >> And I'm wondering how you explain AI at health conferences. >> We're in Vegas, baby. Time for you to",
+      "hit the stage. >> Yikes. I better get to work. >> Work your magic. >> Please welcome Dr. Jonathan Chin. >> I'm literally a hospital physician. I'm in my white coat and scrubs that I think I have a blood stain here. Give me a",
+      "second. Let me see if I can just clean this up for a second and make myself a little bit more presentable. Okay. >> What do you foresee for the future of AI and medicine? >> Humans are always going to be needed,",
+      "but our roles are going to shift and adapt. I should hope we have less paperwork to do, but when you need a surgeon, like you just need a surgeon, right? But a video visit's sometimes good enough. Using it for consultation,",
+      "drafting information, that's fine. practicing counseling and reasoning, but it still leaves us to be in the position of like judgment, uh, influence, responsibilities, a very different dynamic. A thing that a computer just",
+      "doesn't do, no matter how smart the computer gets. >> Who would have expected? Computer nerd, uh, from from Southern California is now doing some shenanigans on the Vegas stage."
+    ],
+    "title": "The magic of AI in health care: Beyond the illusion | 90 Seconds w/ Lisa Kim",
+    "description": "Jonathan Chen, MD, PhD, director of AI in medical education at Stanford Medicine, has a few tricks up his sleeve when it comes to explaining how AI is reshaping medicine and patient care. Cutting through the smoke and mirrors, Chen separates anxiety from optimism around the hype — as this “hospital magician” takes his show on the road.\n\nRead more:\nAt Stanford Medicine, AI is becoming part of the curriculum, clinical training and the future of care: https://stan.md/3LZV535\n.\n.\n.\n#AIandMedicine #MedicalEducation #StanfordMedicine \nStanford Medicine advances human health through world-class biomedical research, education and patient care. Bringing together the resources of Stanford University School of Medicine, Stanford Health Care and Lucile Packard Children's Hospital, Stanford Medicine is committed to training future leaders in biomedicine and translating the latest discoveries into new ways to prevent, diagnose and treat disease.\n\nThe Stanford Medicine YouTube channel is a curated collection of contributions from our School of Medicine departments, divisions, students, and the community. Our diverse content includes coverage of events, presentations, lectures, and associated stories about the people of Stanford Medicine.",
+    "trust_signals": {
+      "author_credibility": 0.85,
+      "content_quality": 1.0,
+      "domain_authority": 0.6,
+      "recency_score": 1.0,
+      "medical_disclaimer_score": 0.15
+    }
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=Ivn4Gi0aCfc",
+    "source_type": "youtube",
+    "author": "Google Cloud",
+    "published_date": "2024-09-25",
+    "language": "en",
+    "region": "global",
+    "topic_tags": [
+      "healthcare",
+      "clinical medicine",
+      "artificial intelligence",
+      "medical research",
+      "biotechnology"
+    ],
+    "trust_score": 0.64,
+    "content_chunks": [
+      "SPEAKER: What if I told you there was a new partner in every medical facility across the globe? One that could revolutionize the way we diagnose, treat and even predict diseases? Well, that's not a hypothetical, because that partner",
+      "is generative AI, and it's reshaping the health care landscape. Gen AI is a tool that can analyze massive amounts of data, generate novel solutions, and ultimately save lives. To illustrate this, let's meet the Cymbal health",
+      "team, a fictional health care company, and find out how Gen AI could revolutionize the way they approach their work. This is Saskia. Saskia is a clinician and she cares deeply about her patients. She's constantly on the lookout for ways",
+      "to improve care and patient outcomes. Next, say hello to Micah, the team's medical imaging specialist. He's been using AI for his work, but wondering if there are ways to improve image interpretation.",
+      "He's also hoping to innovate. Are there ways to develop novel imaging techniques? Claire is the team's researcher. She has a M.D. PhD, so she's quite experienced and she has basic machine learning and coding skills.",
+      "Like the rest of the team, she's really excited about generative AI and hopes that it can aid with drug discovery, synthetic data generation, and improved research methodology. Next, let's meet Lucas, Cymbal's healthcare administrator.",
+      "Lucas doesn't have much technical experience, but he's eager to innovate and streamline processes for the team. Now, before going any further, let's pause to define Large Language Models, or LLMs. LLMs are machine learning models that",
+      "are trained on a massive amount of data. These models have an exceptional memory and are extremely skilled in solving common problems. In the medical field, solutions to these problems could include drafting discharge summaries,",
+      "generating medical images, or even generating heart and lung sounds to augment medical training. Part of the power of LLMs comes from the fact that you can fine tune them. They're first pre-trained and given a general education",
+      "and then using research papers, clinical notes and health care reports, you can fine tune the model to perform very specific tasks. And you can do this with a single model. Take Saskia, for example. Sometimes research papers and technical documentation",
+      "are filled with so much technical jargon that it's difficult for her to parse. An LLM can help with this. It can be fine tuned to translate these documents into a more simplified language that a clinician can easily",
+      "understand. The team can then take this a step further and develop a chat bot that's powered by the LLM to generate patient-friendly explanations of diagnoses, procedures and medical instructions. Gone is the patient stress of not understanding",
+      "what they've been diagnosed with or how to get healthy. That same LLM can help Micah as well. After fine tuning the model with medical images and reference materials, the model is smart enough to generate medical images and identify specific conditions",
+      "or variations within those images. The LLM can also generate comprehensive, accurate descriptions for these images, making diagnosis and reporting easier. The researcher, Claire, can give the LLM massive amounts of medical publications",
+      "that would otherwise take her months to go through and have it generate insights and summaries. And the model can even draw hypotheses and connections from seemingly disparate studies. What a research companion.",
+      "And for Lucas, the administrator, the LLM can identify patterns and pinpoint inefficiencies. For example, Lucas can give the LLM scheduling data to analyze and prompt it to identify procedures with unusually long wait times.",
+      "Then he can instruct the LLM to cross-reference those procedures with staffing schedules and equipment maintenance logs. When all is said and done, the LLM will provide an output. Wait times for procedure x may be",
+      "caused by understaffing on Tuesdays or equipment needing calibration. It goes without saying that fine-tuned LLMs are invaluable, especially for specific domains like health. As if this isn't exciting enough,",
+      "here's something really incredible. There are general purpose LLMs and specialized medical LLMs that are already fine tuned for health care. Before wrapping up, let's summarize a few of the many ways a medical LLM can assist in the health",
+      "care field. LLMs can discover relationships across data types. For example, they can correlate findings in an image with text descriptions in a corresponding report. They can improve diagnosis by detecting subtle abnormalities",
+      "or suggesting differential diagnoses. They can streamline radiologist workflows by creating reports from medical images and providing patient-friendly explanations. And they can generate synthetic medical images",
+      "with specific conditions or variations, which is also useful for augmentation and training. Gen AI and LLMs are revolutionizing health care. No matter what your role is, you can benefit from having a highly intelligent medical partner,",
+      "providing you with insights and generating life-saving results. Interested in learning more? Click the link in the description. [MUSIC PLAYING]"
+    ],
+    "title": "How Generative AI is Transforming Healthcare",
+    "description": "Learn more today → https://goo.gle/genai-health\n\nImagine a world where medical professionals have a tireless partner, capable of analyzing mountains of data, generating groundbreaking solutions, and ultimately, saving lives. That world is here, thanks to the power of generative AI.\n\nMeet the Cymbal Health team - a fictional healthcare company - and see how generative AI transforms their work, from simplifying complex research for clinicians to streamlining administrative tasks and even generating synthetic medical images.\n\n0:00 Introduction\n0:28 Meet the Cymbal Health team\n1:32 What are LLMs?\n2:22 How can LLMs help the Cymbal Health team? \n4:35 Medical LLM capabilities \n5:15 Wrap up \n\n#generativeAI #genai #healthcare #AIinmedicine #LLMs #futureofhealthcare #medicaltechnology #innovation #healthtech #googlecloud #googlecloudlearning",
+    "trust_signals": {
+      "author_credibility": 0.85,
+      "content_quality": 1.0,
+      "domain_authority": 0.6,
+      "recency_score": 0.75,
+      "medical_disclaimer_score": 0.15
+    }
+  }
+]

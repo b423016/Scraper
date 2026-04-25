@@ -1,0 +1,15 @@
+requests>=2.31
+beautifulsoup4>=4.12
+newspaper4k>=0.9
+lxml>=5.0
+youtube-transcript-api>=0.6
+yt-dlp>=2024.0
+biopython>=1.83
+langdetect>=1.0
+yake>=0.4
+sentence-transformers>=2.7
+scikit-learn>=1.4
+python-dateutil>=2.9
+bleach>=6.1
+fastapi>=0.110
+uvicorn>=0.29

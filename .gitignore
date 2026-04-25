@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Large ML models
+backend/models/bge-small-en/
+backend/models/models--BAAI--bge-small-en-v1.5/
+
+# Mac OS
+.DS_Store
+
+# (Optional) Data and logs
+# We WILL commit output/ because the assignment requests the output data.
+# logs/

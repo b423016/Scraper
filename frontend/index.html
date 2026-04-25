@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Multi-Source Content Scraper & Trust Scoring System — Scrape blogs, YouTube, and PubMed with automatic trust scoring and topic tagging.">
+    <title>TrustScrape — Multi-Source Content Scraper & Trust Scoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ═══ Ambient Background ═══ -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- ═══ Navigation ═══ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <div class="brand-icon">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M14 2L26 8V20L14 26L2 20V8L14 2Z" stroke="url(#brandGrad)" stroke-width="2" fill="none"/>
+                    <path d="M14 10L20 13V19L14 22L8 19V13L14 10Z" fill="url(#brandGrad)" opacity="0.5"/>
+                    <defs><linearGradient id="brandGrad" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+                </svg>
+            </div>
+            <span class="brand-text">TrustScrape</span>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#scraper" class="nav-link">Scraper</a>
+            <a href="#results" class="nav-link">Results</a>
+        </div>
+        <div class="nav-status">
+            <div class="status-dot" id="statusDot"></div>
+            <span class="status-text" id="statusText">Disconnected</span>
+        </div>
+    </nav>
+
+    <!-- ═══ Hero Section ═══ -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span>AI-Powered Trust Scoring</span>
+            </div>
+            <h1 class="hero-title">
+                Multi-Source Content<br>
+                <span class="gradient-text">Scraper & Trust Engine</span>
+            </h1>
+            <p class="hero-subtitle">
+                Scrape blogs, YouTube videos, and PubMed articles. Get automatic topic tagging, 
+                language detection, and explainable trust scores — all powered by semantic AI.
+            </p>
+            <div class="hero-actions">
+                <a href="#scraper" class="btn btn-primary" id="getStartedBtn">
+                    <span>Get Started</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </a>
+                <a href="#how-it-works" class="btn btn-ghost">
+                    <span>How It Works</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-value">3</span>
+                    <span class="stat-label">Source Types</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-value">5</span>
+                    <span class="stat-label">Trust Factors</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-value">20+</span>
+                    <span class="stat-label">Topic Tags</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ How It Works ═══ -->
+    <section class="section" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-desc">A modular pipeline that transforms raw URLs into enriched, trust-scored content.</p>
+            <div class="pipeline-grid">
+                <div class="pipeline-card" data-step="1">
+                    <div class="card-icon card-icon-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Input URLs</h3>
+                    <p>Provide blog, YouTube, and PubMed URLs. The router auto-classifies each source type.</p>
+                </div>
+                <div class="pipeline-card" data-step="2">
+                    <div class="card-icon card-icon-violet">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7V4h16v3M9 20h6M12 4v16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Extract & Clean</h3>
+                    <p>Source-specific scrapers extract metadata and content, then remove noise and boilerplate.</p>
+                </div>
+                <div class="pipeline-card" data-step="3">
+                    <div class="card-icon card-icon-cyan">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Enrich</h3>
+                    <p>Detect language, infer region, generate semantic topic tags, and split into content chunks.</p>
+                </div>
+                <div class="pipeline-card" data-step="4">
+                    <div class="card-icon card-icon-emerald">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Trust Score</h3>
+                    <p>Compute an explainable 0–1 trust score from author credibility, citations, domain authority, recency, and disclaimers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Scraper Section ═══ -->
+    <section class="section section-dark" id="scraper">
+        <div class="container">
+            <h2 class="section-title">Scraper Console</h2>
+            <p class="section-desc">Enter URLs below or use the batch input to process multiple sources at once.</p>
+
+            <!-- Backend URL Config -->
+            <div class="api-config">
+                <label for="apiBaseUrl" class="config-label">Backend API URL</label>
+                <div class="config-input-group">
+                    <input type="text" id="apiBaseUrl" class="input" value="http://localhost:8000" placeholder="http://localhost:8000">
+                    <button class="btn btn-sm btn-ghost" id="testConnectionBtn" title="Test connection">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.5 8A5.5 5.5 0 118 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M8 5V8l2 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab Switch -->
+            <div class="tab-switch">
+                <button class="tab-btn active" data-tab="single" id="tabSingle">Single URL</button>
+                <button class="tab-btn" data-tab="batch" id="tabBatch">Batch URLs</button>
+            </div>
+
+            <!-- Single URL Input -->
+            <div class="tab-content active" id="singleTab">
+                <div class="scraper-input-group">
+                    <div class="input-wrapper">
+                        <svg class="input-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" transform="scale(0.75)"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" transform="scale(0.75)"/></svg>
+                        <input type="url" id="singleUrlInput" class="input input-lg" placeholder="Paste a blog, YouTube, or PubMed URL…" autocomplete="off">
+                    </div>
+                    <button class="btn btn-primary btn-lg" id="scrapeSingleBtn">
+                        <span>Scrape</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Batch URL Input -->
+            <div class="tab-content" id="batchTab">
+                <textarea id="batchUrlInput" class="textarea" rows="8" placeholder="Enter one URL per line:&#10;&#10;https://example.com/blog-post&#10;https://youtube.com/watch?v=abc123&#10;https://pubmed.ncbi.nlm.nih.gov/12345678/"></textarea>
+                <div class="batch-actions">
+                    <span class="url-count" id="urlCount">0 URLs</span>
+                    <button class="btn btn-primary" id="scrapeBatchBtn">
+                        <span>Scrape All</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Progress -->
+            <div class="progress-section hidden" id="progressSection">
+                <div class="progress-header">
+                    <span class="progress-label" id="progressLabel">Processing…</span>
+                    <span class="progress-percent" id="progressPercent">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-log" id="progressLog"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Results Section ═══ -->
+    <section class="section" id="results">
+        <div class="container">
+            <div class="results-header">
+                <h2 class="section-title">Results</h2>
+                <div class="results-actions">
+                    <button class="btn btn-sm btn-ghost" id="refreshResultsBtn">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M12 7A5 5 0 117 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 2v3h-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Refresh</span>
+                    </button>
+                    <button class="btn btn-sm btn-ghost" id="downloadJsonBtn">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2v7M7 9l-3-3M7 9l3-3M2 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Export JSON</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Summary Cards -->
+            <div class="summary-grid hidden" id="summaryGrid">
+                <div class="summary-card">
+                    <div class="summary-icon summary-icon-total">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 4h12v12H4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M8 8h4M8 12h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="summary-data">
+                        <span class="summary-value" id="totalSources">0</span>
+                        <span class="summary-label">Sources</span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon summary-icon-trust">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2l6 3v5c0 3.5-2.5 6.5-6 8-3.5-1.5-6-4.5-6-8V5l6-3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="summary-data">
+                        <span class="summary-value" id="avgTrust">0.00</span>
+                        <span class="summary-label">Avg Trust</span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon summary-icon-blog">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 5h12M4 9h8M4 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="summary-data">
+                        <span class="summary-value" id="blogCount">0</span>
+                        <span class="summary-label">Blogs</span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon summary-icon-yt">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="5" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 8l4 2-4 2V8z" fill="currentColor"/></svg>
+                    </div>
+                    <div class="summary-data">
+                        <span class="summary-value" id="ytCount">0</span>
+                        <span class="summary-label">YouTube</span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon summary-icon-pm">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 3h8l3 4v10H3V7l3-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M7 10h6M7 13h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="summary-data">
+                        <span class="summary-value" id="pmCount">0</span>
+                        <span class="summary-label">PubMed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Result Cards -->
+            <div class="results-grid" id="resultsGrid">
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M18 24h12M24 18v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>No results yet</h3>
+                    <p>Enter a URL above to start scraping and scoring content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Footer ═══ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">TrustScrape</span>
+                    <p>Multi-Source Content Scraping & Trust Scoring System</p>
+                </div>
+                <div class="footer-links">
+                    <span>Built with FastAPI + Sentence Transformers</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
